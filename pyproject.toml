@@ -1,1 +1,16 @@
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
 
+[project]
+name = "dot-to-dot"
+version = "0.1.0"
+description = "Automated dot-to-dot drawing book generator"
+authors = [{ name = "Harshil", email = "radhakrishnaa2995@gmail.com" }]
+license = { text = "MIT" }
+dependencies = [
+    "numpy>=1.21",
+    "opencv-python>=4.5",
+    "pillow>=9.0",
+    "reportlab>=3.6",
+]
